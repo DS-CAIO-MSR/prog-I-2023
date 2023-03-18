@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class S03{
+    public static void main(String[]args){
+        Scanner teclado = new Scanner(System.in);
+        
+        double priValor,segValor,terValor,quaValor, media;
+        
+        System.out.println("Digite quatro valores =>");
+        
+        priValor = teclado.nextDouble();
+        segValor = teclado.nextDouble();
+        terValor = teclado.nextDouble();
+        quaValor = teclado.nextDouble();
+        
+        media = priValor+segValor+terValor+quaValor;
+        
+        System.out.printf("A media dos valores é : %.2f ", media / 4);
+        
+    }
+}
