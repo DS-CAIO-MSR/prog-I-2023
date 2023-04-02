@@ -39,16 +39,10 @@ public class C05{
                                System.out.println(b+" "+c+" "+a); 
                             }     
                         }
-            
                     }
-           
                 }
-            
-               }
-             
+                 }
             }
-            
         }
-       
     }
 }
